@@ -1,0 +1,27 @@
+{
+    "status": "successful",
+    "message": null,
+    "code": null,
+    "results": {
+      "voicebase_transcription": {
+        "request_sid": "XB7afe11af3e292cadb03248e0066b8c1e",
+        "status": "successful",
+        "message": null,
+        "code": null,
+        "payload": [
+          {
+            "content_type":"application/json",
+            "url":"https://api.twilio.com/2010-04-01/Accounts/AC05bxxx/Recordings/RE557cxxx/AddOnResults/XR7b57f17eeae56053f034a8a819577e89/Payloads/XH000001/Data"
+          },
+          {
+            "content_type":"audio/wav",
+            "url":"https://api.twilio.com/2010-04-01/Accounts/AC05bxxx/Recordings/RE557cxxx/AddOnResults/XR7b57f17eeae56053f034a8a819577e89/Payloads/XH000002/Data"
+          }
+        ],
+        "links": {
+          "add_on_result": "https://api.twilio.com/2010-04-01/Accounts/AC05bxxx/Recordings/RE557cxxx/AddOnResults/XR7b57f17eeae56053f034a8a819577e89",
+          "payloads": "https://api.twilio.com/2010-04-01/Accounts/AC05bxxx/Recordings/RE557cxxx/AddOnResults/XR7b57f17eeae56053f034a8a819577e89/Payloads",
+          "recording": "https://api.twilio.com/2010-04-01/Accounts/AC05bxxx/Recordings/RE557cxxx"
+        }
+      }
+    }

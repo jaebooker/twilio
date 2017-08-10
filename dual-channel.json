@@ -1,0 +1,24 @@
+{
+    "configuration": {
+      "executer": "v2",
+      "ingest":{
+        "channels":{
+          "left":{
+            "speaker":"recruiter"
+          },
+          "right":{
+            "speaker":"client"
+          }
+        }
+      },
+      "transcripts": {
+        "vocabularies": [
+          {
+            "terms" : [
+              "ardvark"
+            ]
+          }
+        ]
+      }
+    }
+}
