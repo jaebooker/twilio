@@ -17,9 +17,7 @@ app = Flask(__name__)
 fake = Factory.create()
 alphanumeric_only = re.compile('[\W_]+')
 phone_pattern = re.compile(r"^[\d\+\-\(\) ]+$")
-r = requests.post('http://Jaeson.pythonanywhere.com/', data={"ts":time.time()})
-print(r.status_code)
-print(r.content)
+
 
 @app.route('/')
 def index():
@@ -53,7 +51,7 @@ def voice():
         dial = Dial(
             caller_id=os.environ['TWILIO_CALLER_ID'],
             record='record-from-answer-dual',
-            recording_status_callback='http://Jaeson.pythonanywhere.com/'
+            recording_status_callback='insertURL'
         )
         # wrap the phone number or client name in the appropriate TwiML verb
         # by checking if the number given has only digits and format symbols
